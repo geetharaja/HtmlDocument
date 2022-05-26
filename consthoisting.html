@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>Const Hoisting</h2>
+<p>Const also hoisted but it will throw refference error</p>
+<p id="demo"></p>
+</body>
+    <script>
+        try{
+            alert(carName);
+            const carName="Tyoto";
+        }catch (err){
+            document.getElementById("demo").innerHTML=err;
+        }
+
+    </script>
+</html>

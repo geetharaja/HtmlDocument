@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>Learning About CONST</h2>
+<p>const dosnt definr the value and it defines constant reference to a value</p>
+<p id="demo"></p>
+</body>
+<script>
+    try{
+        const records={name:"Geetha",age:"30",occupation:"housewife"};
+        records={name:"Raja",age:"40",occupation:"Developer"};
+    }catch(err){
+        document.getElementById("demo").innerHTML=err;
+    }
+</script>
+</html>
